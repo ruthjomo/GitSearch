@@ -1,6 +1,6 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. */
+/* To learn more about this file see: https://angular.io/config/tsconfig.base.json */
 {
-  "extends": "../tsconfig.base.json",
+  "extends": "../tscofig.base.json",
   "compilerOptions": {
     "outDir": "../out-tsc/e2e",
     "module": "commonjs",

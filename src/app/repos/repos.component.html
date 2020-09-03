@@ -1,0 +1,23 @@
+<div class="container-fluid bg-light">
+    <div class="container">
+        <form>
+            <div class="searchbox">
+                Enter Repository Name <input type="text"  class="search" [(ngModel)]='reposName' (keyup)="findRepo()" name="reposName" placeholder="Search or jump to ...">
+             </div>
+        </form>
+
+        <div *ngIf="reposItems" >
+            <div class="card info" *ngFor='let item of reposItems'>
+                <div class="card-body" appLatest>
+                   <h3><a href="{{item.html_url}}" target="_blank"><strong>{{item.name}}</strong></a></h3>
+                    <p><strong>Created:</strong> {{item.created_at|dateCount}}</p>
+                    <p><strong>Created by:</strong> {{item.owner.login}}</p>
+                    <p><strong>Language used:</strong> {{item.language}}</p>
+                    <p>{{item.description}}</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
