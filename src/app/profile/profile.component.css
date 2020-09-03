@@ -1,0 +1,31 @@
+.search{
+    padding: 5px;
+    font-size: 17px;
+  }
+.searchbox{
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.users{ 
+    padding: 15px;
+}
+.card{
+    margin: 15px;
+}
+.profileimage{
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    
+}
+.btn{
+    margin: 10px;
+
+}
+p{
+    font-size: large;
+}
+
+.info{
+    background-color: rgb(159, 189, 182);
+}
