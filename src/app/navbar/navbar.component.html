@@ -1,10 +1,14 @@
  
-<div class="navbar navbar-light bg-light">
+<div class="navbar">
     <div>
-      <h2 class="search">Github Search</h2>
+      <h2 class="search">GH Search</h2>
     </div>
-
-        <a class="nav-item nav-link active btn btn-dark" routerLink="profile"  routerLinkActive='active'>Search Users<span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link btn btn-dark" routerLink="/repos"  routerLinkActive='active'> Search Repositories</a>
-
+    <div class="row">
+    <div class="col-md-4">
+    <a class="nav-item nav-link active btn btn-info" routerLink="profile"  routerLinkActive='active'>Search Users<span class="sr-only">(current)</span></a>
+    </div>
+    <div class="col-md-4">
+    <a class="nav-item nav-link btn btn-info" routerLink="/repos"  routerLinkActive='active'> Search Repos</a>
+    </div>
+    </div>
 </div>

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SearchService } from '../profile-service/search.service'
+import { SearchService } from '../profile-http/search.service'
 
 @Component({
   selector: 'app-profile',

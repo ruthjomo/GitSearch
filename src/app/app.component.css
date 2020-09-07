@@ -1,13 +1,14 @@
-.info{
-    background-image: url('../assets/images/github-icon-design-vector-png_115671.jpg');
+.page{
+    background-image: url('../assets/images/IMG_20200903_161142.jpg');
     background-size: cover;
-    height: 85vh;
+    height:85vh;    
 }
+
 
 .footer{
     text-align: center;
-    background-color: rgb(59, 93, 99);
+    background-color: lightseagreen;
     color: rgb(8, 4, 4);
     padding: 5px;
-    font-size: medium;
+    font-size: large;
   }
