@@ -1,8 +1,8 @@
-### Quote-App
+### GitSearch
 ## By:Ruth Jomo
 
 # Description
-This a quote app where a user can create a quote,submit it,get upvotes and downvotes,see the number of upvotes and downvotes and delete the created quote.
+This a Github search app where a user can search for someone else's repository directly through inputting the person's github username or searching the person's repository 
 
 # Technologies Used
 
