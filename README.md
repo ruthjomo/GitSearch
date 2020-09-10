@@ -2,7 +2,9 @@
 ## By:Ruth Jomo
 
 # Description
-This a Github search app where a user can search for someone else's repository or github account through filling in  the person's github username or searching the person's repository.When the search is complete,the user can view the person's details.
+This is a website where users may enter a GitHub username into a form, submit it, and see the names and descriptions of that person's public repositories. A person can also look for repositories.
+
+
 
 # Technologies Used
 * HTML:5 for giving the structure of the webpage.
@@ -13,7 +15,7 @@ This a Github search app where a user can search for someone else's repository o
 
 # SetUp
 Here is the project live link.
-https://ruthjomo.github.io/Quote-App/
+https://ruthjomo.github.io/GitSearch/
 
 # Contribution
 Pull requests are welcome. For any changes that one intends to make, please open an issue first to discuss what you would like to change.
