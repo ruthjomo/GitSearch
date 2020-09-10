@@ -18,7 +18,7 @@ import { LatestDirective } from './latest-directive';
     DateCountPipe,
     ProfileComponent,
     NavbarComponent,
-    ReposComponent
+    ReposComponent,
     LatestDirective,
   ],
   imports: [
@@ -27,7 +27,7 @@ import { LatestDirective } from './latest-directive';
     HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [SearchService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
