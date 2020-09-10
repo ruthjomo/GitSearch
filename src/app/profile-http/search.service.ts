@@ -10,7 +10,7 @@ export class SearchService {
   repoName: string;
   clientId: string = "c604f8455e4d468ff329";
   clientSecret: string = "eef14ee9adb595d4d244aee1b9e98cc1b02e16f4";
-  apikey: string = 'f610c2b11032d8181a9d74ac53ddb81149624c5d'
+  apikey: string = 'a10dd63b7121825e128bec2ead77a7dd56657c09'
 
   constructor(private http: HttpClient) {
     console.log('service is ready');
