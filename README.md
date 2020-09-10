@@ -12,16 +12,13 @@ Bootstrap for more styling of the webpage.
 JavaScript: Creation of responsive, interactive elements of the page, enhancing the user experience.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
 
-## Development process
-
-
-# Project Link
+# SetUp
 Here is the project live link.
 https://ruthjomo.github.io/Quote-App/
 
-# Contributing
+# Contribution
 Pull requests are welcome. For any changes that one intends to make, please open an issue first to discuss what you would like to change.
-Please make sure to update tests as appropriate.
+
 
 # Released under MIT License
 Copyright (c) 2020 Ruth Jomo.
