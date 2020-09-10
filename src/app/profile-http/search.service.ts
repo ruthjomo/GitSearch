@@ -8,8 +8,8 @@ export class SearchService {
 
   userName: string;
   repoName: string;
-  clientId: string = "9a67142bcc620287a7cf";
-  clientSecret: string = "90b504378b551c01458c58629dbe9a041d02c8f1";
+  clientId: string = "c604f8455e4d468ff329";
+  clientSecret: string = "eef14ee9adb595d4d244aee1b9e98cc1b02e16f4";
   apikey: string = 'f610c2b11032d8181a9d74ac53ddb81149624c5d'
 
   constructor(private http: HttpClient) {
