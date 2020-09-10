@@ -4,27 +4,30 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { QuoteComponent } from './quote/quote.component';
-import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
-import { QuoteFormComponent } from './quote-form/quote-form.component';
-import { HighlightDirective } from './highlight-directive.directive';
 import { DateCountPipe } from './date-count.pipe';
+import { ProfileComponent } from './profile/profile.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { ReposComponent } from './repos/repos.component';
+import { SearchService } from './profile-http/search.service';
+import { HttpClientModule } from '@angular/common/http';
+import { LatestDirective } from './latest-directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    QuoteComponent,
-    QuoteDetailComponent,
-    QuoteFormComponent,
-    HighlightDirective,
-    DateCountPipe
+    DateCountPipe,
+    ProfileComponent,
+    NavbarComponent,
+    ReposComponent,
+    LatestDirective,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [SearchService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

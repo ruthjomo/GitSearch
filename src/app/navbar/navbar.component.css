@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+h2{
+    color: black;
+    font-family:  cursive;
+    font-size: xx-large;
+}
+.navbar{
+    background-color:lightseagreen;
+}
+.sr-only{
+    padding-top:5%;
+}

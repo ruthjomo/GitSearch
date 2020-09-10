@@ -1,17 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
-
-.welcome {
-    background-image:url("../assets/images/white-abstract-background-vector-png_110580.jpg");
-    background-size:cover;
-    height:30vh;
-    
-    
+.page{
+    background-image: url('../assets/images/IMG_20200903_161142.jpg');
+    background-size: cover;
+    height:85vh;    
 }
-.introduction{
-    margin-left:40%;
-    padding-top:10%;
-    color:lightseagreen;
-    font-family:"Helvetica";
-    font-style:italic;
 
-}
+
+.footer{
+    text-align: center;
+    background-color: lightseagreen;
+    color: rgb(8, 4, 4);
+    padding: 5px;
+    font-size: large;
+  }
