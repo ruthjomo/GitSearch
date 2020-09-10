@@ -13,7 +13,7 @@ export class SearchService {
   apikey: string = 'f610c2b11032d8181a9d74ac53ddb81149624c5d'
 
   constructor(private http: HttpClient) {
-    console.log('service is now ready');
+    console.log('service is ready');
 
    }
 
