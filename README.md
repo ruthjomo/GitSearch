@@ -6,11 +6,11 @@ This a Github search app where a user can search for someone else's repository o
 
 # Technologies Used
 
-HTML:5 for giving the structure of the webpage.
-CSS:3 for styling the webpage.
-Bootstrap for more styling of the webpage.
-JavaScript: Creation of responsive, interactive elements of the page, enhancing the user experience.
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
+*HTML:5 for giving the structure of the webpage.
+*CSS:3 for styling the webpage.
+*Bootstrap for more styling of the webpage.
+*JavaScript: Creation of responsive, interactive elements of the page, enhancing the user experience.
+
 
 # SetUp
 Here is the project live link.
