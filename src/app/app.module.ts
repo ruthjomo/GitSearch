@@ -8,6 +8,9 @@ import { DateCountPipe } from './date-count.pipe';
 import { ProfileComponent } from './profile/profile.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ReposComponent } from './repos/repos.component';
+import { SearchService } from './profile-http/search.service';
+import { HttpClientModule } from '@angular/common/http';
+import { LatestDirective } from './latest-directive';
 
 @NgModule({
   declarations: [
@@ -16,10 +19,12 @@ import { ReposComponent } from './repos/repos.component';
     ProfileComponent,
     NavbarComponent,
     ReposComponent
+    LatestDirective,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     FormsModule
   ],
   providers: [],
